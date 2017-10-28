@@ -1,3 +1,16 @@
-# First Chapter
+# n
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+To install:
+
+```
+npm i -g n
+```
+
+To install versions of node:
+
+```
+n latest
+```
+
+Options: `latest`, `stable`, `lts`, or version number
+
