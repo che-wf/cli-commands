@@ -14,7 +14,7 @@ sudo apt upgrade
 
 Options:
 
-* -y: Accept all without prompt
+* Accept all without prompt: `-y`
 
 **Upgrade to new release:**
 
