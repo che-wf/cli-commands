@@ -18,5 +18,15 @@ git fetch [remote]
 git merge [branch]
 ```
 
+**Options:**
+
+* Merge with unrelated histories: `--allow-unrelated-histories`
+
+**Set remote:**
+
+```
+git remote add [remote name] git@github.com:[account]/[repo].git
+```
+
 
 
