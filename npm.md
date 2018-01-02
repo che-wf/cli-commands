@@ -1,9 +1,9 @@
 # npm
 
-**List first level of global packages:**
+**List first level of packages:**
 
 ```
-npm list -g --depth=0
+npm list --depth=0
 ```
 
 **Update outdated packages:**
@@ -12,3 +12,5 @@ npm list -g --depth=0
 npm update
 ```
 
+## Options
+- Apply globally: `-g`
