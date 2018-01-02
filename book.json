@@ -2,7 +2,7 @@
     "gitbook": "0.1.0",
     "plugins": [],
     "links": {
-        "sidebar": {
+        "footer": {
             "Contact": "josh@che.wf"
         }
     },
