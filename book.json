@@ -1,5 +1,10 @@
 {
     "gitbook": "0.1.0",
     "plugins": [],
-    "links": {}
+    "links": {
+        "sidebar": {
+            "Contact": "josh@che.wf"
+        }
+    },
+    "pluginsConfig": {}
 }
