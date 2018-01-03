@@ -13,4 +13,8 @@ npm update
 ```
 
 ## Options
-- Apply globally: `-g`
+
+* Apply globally: `-g`
+
+
+
