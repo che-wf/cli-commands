@@ -36,7 +36,7 @@ choco upgrade all
 
 **Options:**
 
-* Install/upgrade in a specific directory: `--params="'/installLocation:""C:\tools\apache24""'"`
+* Install/upgrade in a specific directory: `--params="'/installLocation:""C:\tools""'"`
 
 ## Pin[^1]
 
