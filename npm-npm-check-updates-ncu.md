@@ -1,8 +1,8 @@
-# npm-check-updates {#pragma-line-0}
+# npm - npm-check-updates \(ncu\)
 
-**Check for updates locally:**
+### **Check for updates locally:**
 
-```
+```text
 ncu
 ```
 
@@ -10,6 +10,4 @@ ncu
 
 * globally: `-g`
 * update outdated: `-u`
-
-
 

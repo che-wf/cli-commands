@@ -1,10 +1,11 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Chocolatey](chocolatey.md)
+* [Docker](docker.md)
 * [Git](git.md)
 * [npm](npm.md)
-* [npm - n](//n.md)
+* [npm - n](n.md)
 * [npm - npm-check-updates \(ncu\)](npm-npm-check-updates-ncu.md)
 * [Python](python.md)
 * [Ubuntu](ubuntu.md)

@@ -1,14 +1,16 @@
 # Ubuntu
 
-**Check for outdated packages:**
+## Packages
 
-```
+### **Check for outdated packages:**
+
+```text
 sudo apt update
 ```
 
-**Upgrade all outdated packages:**
+### **Upgrade all outdated packages:**
 
-```
+```text
 sudo apt upgrade
 ```
 
@@ -16,9 +18,9 @@ Options:
 
 * Accept all without prompt: `-y`
 
-**Upgrade to new release:**
+### **Upgrade to new release:**
 
-```
+```text
 sudo do-release-upgrade
 ```
 

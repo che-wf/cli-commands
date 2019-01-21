@@ -1,20 +1,20 @@
 # Git
 
-**Fetch:**
+### **Fetch:**
 
-```
+```text
 git fetch
 ```
 
-**Fetch from remote:**
+### **Fetch from remote:**
 
-```
+```text
 git fetch [remote]
 ```
 
-**Merge with another branch:**
+### **Merge with another branch:**
 
-```
+```text
 git merge [branch]
 ```
 
@@ -24,9 +24,7 @@ git merge [branch]
 
 **Set remote:**
 
-```
+```text
 git remote add [remote name] git@github.com:[account]/[repo].git
 ```
-
-
 
