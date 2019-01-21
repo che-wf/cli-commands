@@ -14,6 +14,8 @@ Install with PowerShell
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
+Source: [https://chocolatey.org/docs/installation](https://chocolatey.org/docs/installation)
+
 ## Install / Upgrade Packages
 
 Note: Remember to run as administrator
@@ -24,7 +26,11 @@ Note: Remember to run as administrator
 choco install [package name]
 ```
 
-**Check updates:**
+```text
+cinst [package name]
+```
+
+**List outdated packages:**
 
 ```text
 choco outdated
@@ -36,9 +42,16 @@ choco outdated
 choco upgrade all
 ```
 
+```text
+cup all
+```
+
 **Options:**
 
 * Install/upgrade in a specific directory: `--params="'/installLocation:""C:\tools""'"`
+
+Install source: [https://chocolatey.org/docs/commandsinstall](https://chocolatey.org/docs/commandsinstall)  
+Upgrade source: [https://chocolatey.org/docs/commandsupgrade](https://chocolatey.org/docs/commandsupgrade)
 
 ## Pin
 
@@ -57,4 +70,31 @@ choco pin add -n=git
 choco pin add -n=git --version 1.2.3
 choco pin remove --name git
 ```
+
+Source: [https://chocolatey.org/docs/commandspin](https://chocolatey.org/docs/commandspin)
+
+## List
+
+### Usage
+
+```text
+  choco search <filter> [<options/switches>]
+```
+
+```text
+  choco list <filter> [<options/switches>]
+```
+
+```text
+  clist <filter> [<options/switches>]
+```
+
+### Options
+
+* Only local: `-l`, `--lo`, `--localonly`, `--local-only`
+* Exact name: `-e`, `--exact`
+
+Source: [https://chocolatey.org/docs/commandslist](https://chocolatey.org/docs/commandslist)
+
+
 
