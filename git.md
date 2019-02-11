@@ -1,6 +1,6 @@
 # Git
 
-### **Fetch:**
+## **Fetch:**
 
 ```text
 git fetch
@@ -12,7 +12,7 @@ git fetch
 git fetch [remote]
 ```
 
-### **Merge with another branch:**
+## **Merge with another branch:**
 
 ```text
 git merge [branch]
@@ -22,9 +22,17 @@ git merge [branch]
 
 * Merge with unrelated histories: `--allow-unrelated-histories`
 
-**Set remote:**
+## **Remotes**
+
+### **Set remote:**
 
 ```text
 git remote add [remote name] git@github.com:[account]/[repo].git
+```
+
+### **Verify remote:**
+
+```text
+git remote -v
 ```
 

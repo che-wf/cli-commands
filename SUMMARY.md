@@ -4,6 +4,7 @@
 * [Chocolatey](chocolatey.md)
 * [Docker](docker.md)
 * [Git](git.md)
+* [nmap](nmap.md)
 * [npm](npm.md)
 * [npm - n](n.md)
 * [npm - npm-check-updates \(ncu\)](npm-npm-check-updates-ncu.md)
