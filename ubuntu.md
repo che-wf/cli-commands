@@ -1,5 +1,13 @@
 # Ubuntu
 
+## Version
+
+### Get version number
+
+```text
+lsb_release -a
+```
+
 ## Packages
 
 ### **Check for outdated packages:**
