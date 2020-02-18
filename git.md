@@ -1,20 +1,20 @@
 # Git
 
-## **Fetch:**
+## Fetch:
 
-```text
+```
 git fetch
 ```
 
 ### **Fetch from remote:**
 
-```text
+```
 git fetch [remote]
 ```
 
 ## **Merge with another branch:**
 
-```text
+```
 git merge [branch]
 ```
 
@@ -22,17 +22,24 @@ git merge [branch]
 
 * Merge with unrelated histories: `--allow-unrelated-histories`
 
-## **Remotes**
+## Remotes
 
 ### **Set remote:**
 
-```text
+```
 git remote add [remote name] git@github.com:[account]/[repo].git
 ```
 
 ### **Verify remote:**
 
-```text
+```
 git remote -v
 ```
 
+## Tracking
+
+### Ignore tracked files locally
+
+```
+git update-index --assume-unchanged [<file>...]
+```
