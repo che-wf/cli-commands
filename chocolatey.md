@@ -32,17 +32,17 @@ cinst [package name]
 
 **List outdated packages:**
 
-```powershell
+```sh
 choco outdated
 ```
 
 **Upgrade all outdated packages that aren't pinned:**
 
-```powershell
+```sh
 choco upgrade all
 ```
 
-```powershell
+```sh
 cup all
 ```
 
