@@ -1,18 +1,17 @@
 # npm
 
-### **List first level of packages:**
+### List first level of packages
 
-```text
+```powershell
 npm list --depth=0
 ```
 
 ### **Update outdated packages:**
 
-```text
+```powershell
 npm update
 ```
 
 ## Options
 
-* Apply globally: `-g`
-
+- Apply globally: `-g`

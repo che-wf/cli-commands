@@ -4,7 +4,7 @@
 
 ### Get version number
 
-```text
+```powershell
 lsb_release -a
 ```
 
@@ -12,23 +12,23 @@ lsb_release -a
 
 ### **Check for outdated packages:**
 
-```text
+```powershell
 sudo apt update
 ```
 
 ### **Upgrade all outdated packages:**
 
-```text
+```powershell
 sudo apt upgrade
 ```
 
 Options:
 
-* Accept all without prompt: `-y`
+- Accept all without prompt: `-y`
 
 ### **Upgrade to new release:**
 
-```text
+```powershell
 sudo do-release-upgrade
 ```
 
@@ -38,7 +38,6 @@ Note: Make sure `update-manager-core` is installed to upgrade
 
 ### Unzip a Compressed Directory
 
-```text
+```powershell
 unzip [/path/to/file].zip -d [temp_for_zip_extract]
 ```
-

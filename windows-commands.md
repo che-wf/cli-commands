@@ -1,8 +1,7 @@
 # Windows Commands
 
-### **Get classic credential manager:**
+## Get classic credential manager
 
-```text
+```powershell
 rundll32.exe keymgr.dll, KRShowKeyMgr
 ```
-

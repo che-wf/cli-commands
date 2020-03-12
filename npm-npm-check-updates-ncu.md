@@ -1,13 +1,12 @@
 # npm - npm-check-updates \(ncu\)
 
-### **Check for updates locally:**
+## Check for updates locally
 
-```text
+```powershell
 ncu
 ```
 
 **Options:**
 
-* globally: `-g`
-* update outdated: `-u`
-
+- globally: `-g`
+- update outdated: `-u`

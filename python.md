@@ -2,7 +2,7 @@
 
 ### **Version Check**
 
-```text
+```powershell
 python -V
 ```
 
@@ -10,9 +10,8 @@ Note: argument is case-sensitive
 
 ### **Exiting command line script**
 
-```text
+```powershell
 exit()
 ```
 
 or `Ctrl-Z` + `Return`
-

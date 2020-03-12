@@ -2,40 +2,39 @@
 
 Note: use `sudo` on Linux or WSL
 
-### **To install:**
+## To install
 
-```text
+```powershell
 npm i -g n
 ```
 
-### **To install versions of node:**
+### To install versions of node
 
-```text
+```powershell
 n latest
 ```
 
-#### **Options**:
+#### Options
 
-* `latest`
-* `stable` 
-* `lts`
-* version number
+- `latest`
+- `stable`
+- `lts`
+- version number
 
-### **Remove a version:**
+## Remove a version
 
-```text
+```powershell
 n rm 8.9.0
 ```
 
 or
 
-```text
+```powershell
 n - 8.9.0
 ```
 
-### **Prune all packages but current:**
+## Prune all packages but current
 
-```text
+```powershell
 n prune
 ```
-
