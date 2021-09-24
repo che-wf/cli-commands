@@ -41,3 +41,13 @@ Note: Make sure `update-manager-core` is installed to upgrade
 ```sh
 unzip [/path/to/file].zip -d [temp_for_zip_extract]
 ```
+
+## File Utilities
+
+### Remove duplicate lines from a file (and create a new file with the duplicates removed)
+
+*Note: No need to use brackets*
+
+```sh
+sort [duplicatesFile.txt] | uniq > [removedDuplicatesFile.txt]
+```
